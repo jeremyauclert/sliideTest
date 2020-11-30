@@ -1,3 +1,14 @@
+# Observations:
+1. The login state is not saved when the app is relaunched, after accessing news on a successful login and then killing the app.
+2. No form validations on the username and password feilds.
+3. Login button should not be enabled for clicking untill the username and password fields are entered. Actual behaviour right now shows and error message on username even though there is no values fed into the feilds.
+
+# Note: In Automation scripts I have tried to implement explicit wait but not successfully. Have used Thread.Sleep for now, though not a fan.
+
+#### Login credentials used
+#### user: user1
+#### password: password
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Sliide QA Technical Test
 ## Congratulations, you have reached the next stage which is solving a Sliide practical test.
 ##### Please create your own repo and share the solution with us
